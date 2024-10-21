@@ -1,7 +1,7 @@
-# Base Colors Art Web App
+# Palette Maker Web App
 
 ## Description
-The **Base Colors Art** web app allows users to upload an image and automatically generate a 5-color palette based on the most prominent colors in the image. The generated palette includes HEX codes that users can easily copy. The app also allows users to save the final image, which includes the uploaded image, the color palette, and branding (logo).
+The **Palette Maker** web app allows users to upload an image and automatically generate a 5-color palette based on the most prominent colors in the image. The generated palette includes HEX codes that users can easily copy. The app also allows users to save the final image, which includes the uploaded image, the color palette, and branding (logo).
 
 This tool is ideal for designers, artists, and anyone looking for a quick way to generate custom color palettes from any image!
 
