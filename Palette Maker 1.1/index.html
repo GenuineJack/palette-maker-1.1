@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Colors Art</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <!-- Logo -->
+            <div id="logo-container">
+                <a href="#" id="reset-app">
+                    <img src="https://images.squarespace-cdn.com/content/v1/658488e71ebc22517acdad54/d971cfa2-73cf-4357-bb0d-a50098b2b7df/FINE-ART-BC-LOGO.jpg" alt="Base Colors Art" id="logo">
+                </a>
+            </div>
+
+            <!-- Instructions -->
+            <div id="instructions">
+                <h1>Create Your Custom Color Palette</h1>
+                <p>Follow these steps:</p>
+                <ol>
+                    <li>Upload your image.</li>
+                    <li>A custom palette will be generated automatically.</li>
+                    <li>Click any HEX code to copy it.</li>
+                    <li>Save the image with the color palette.</li>
+                </ol>
+            </div>
+
+            <!-- Step 1: Upload Image -->
+            <input type="file" id="image-upload" accept="image/*">
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+            <!-- Image Preview -->
+            <div id="image-container">
+                <img id="image-preview" src="" alt="Image Preview" style="display:none;" />
+            </div>
+
+            <!-- Color Palette -->
+            <div id="color-palette"></div>
+
+            <!-- Save Image Button -->
+            <div id="result" style="display:none;">
+                <canvas id="final-canvas" style="display:none;"></canvas>
+                <button id="save-image">Save Image</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

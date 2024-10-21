@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Two-column layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Left column: Logo, instructions, upload */
+.left-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#logo-container {
+    margin-bottom: 20px;
+}
+
+#logo {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+
+#instructions {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#instructions h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#instructions p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#instructions ol {
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+#instructions li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+/* Upload button */
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Right column: Image, palette, hex codes, save button */
+.right-column {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-preview {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+#color-palette {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.color-block {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.hex-code {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.copy-btn {
+    cursor: pointer;
+    font-size: 12px;
+    color: blue;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#save-image {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
